@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+.table {
+    width: 302px;
+    height: 300px;
+    border: 1px black solid; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.table div {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+.o {
+    background-image: url("../html5/images/o.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.x {
+    background-image: url("../html5/images/x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
